@@ -1,0 +1,4 @@
+from random import choice
+word = choice(["самовар", "весна", "лето"])
+print(a := word.replace(choice(word), "?", 1))
+print(("ПоБеДаАаАаАа!!!!!\n" if a.replace("?", input("Введите букву: "), 1) == word else "Увы! Попробуйте в другой раз........\n") + "Слово:", word)
